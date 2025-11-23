@@ -1,7 +1,8 @@
 # -----------------------------
 # Data files
 # -----------------------------
-data/*.csv
+data/raw/*.csv
+data/raw/*.zip
 
 # -----------------------------
 # Python cache / compiled files
