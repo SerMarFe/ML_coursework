@@ -18,13 +18,12 @@
 
 | Name | CID | GitHub Username |
 |------|-----|-----------------|
-| [Student 4 Name] | [Student 4 CID] | [@username4] |
-| [Student 4 Name] | [Student 4 CID] | [@username4] |
-| [Student 4 Name] | [Student 4 CID] | [@username4] |
-| [Chanaporn Vethakarn] | [06050391] | [@ChanapornV] |
-| [Student 4 Name] | [Student 4 CID] | [@username4] |
-| [Student 4 Name] | [Student 4 CID] | [@username4] |
-| [Student 4 Name] | [Student 4 CID] | [@username4] |
+| [Marsol Ferrer, Sergi] | [Student 4 CID] | [@username4] |
+| [Sanchez Gomez, Maria Lucia] | [Student 4 CID] | [@username4] |
+| [Castro Barandica, Juan Camilo] | [Student 4 CID] | [@username4] |
+| [Desai, Yusayrah] | [Student 4 CID] | [@username4] |
+| [Yasser, Bilal] | [Student 4 CID] | [@username4] |
+| [Vethakarn, Chanaporn] | [06050391] | [@ChanapornV] |
 
 
 
@@ -103,6 +102,16 @@ python src/your_script.py
 1. **Data Collection:** [Describe how you obtained the data]
 2. **Data Cleaning:** [Describe preprocessing steps]
 3. **Analysis:** [Describe analytical methods used]
+    - task 3 : 
+        -
+
+    - task4 : Classification of Operating Conditions
+        - develop machine learning models to categorize optimal or suboptimal
+        - compare 3 models : Logistic Regression, Random Forest and Support Vector Machines (SVM)
+        - evaluated performance using F1-Score
+    
+    - 
+
 4. **Visualization:** [Describe how you visualized results]
 
 [For more detailed methodology, you can reference specific notebooks or documentation files]
@@ -114,9 +123,11 @@ python src/your_script.py
 - [Key finding 1]
 - [Key finding 2]
 - [Key finding 3]
+- In Task 4, the Random Forest classifier demonstrated superior performance compared to Logistic Regression and SVM, achieving a near-perfect F1-Score of 0.999 for detecting operational conditions. Feature importance analysis identified MODULE_TEMPERATURE, IRRADIATION, and AMBIENT_TEMPERATURE as the primary drivers for the model's decisions. Additionally, comparative experiments revealed that the 'Class Weighting' technique did not yield performance improvements for the Random Forest model, suggesting that the algorithm's decision trees could effectively isolate fault patterns without artificial balancing.
+[notebooks/04_operating_condition_classification.ipynb]
+
 
 [You can include links to specific notebooks or figures]
-
 See [notebooks/03-results.ipynb](notebooks/03-results.ipynb) for detailed results and visualizations.
 
 ## Conclusions
@@ -146,6 +157,11 @@ See [notebooks/03-results.ipynb](notebooks/03-results.ipynb) for detailed result
 - [Contribution area 2]
 - [Contribution area 3]
 
+**[Vethakarn, Chanaporn]:**
+- [Contribution in Developed classification models for operating conditions]
+- [Implemented and tuned Logistic Regression, Random Forest, and SVM classifiers]
+- [Applied class weighting techniques to address the dataset imbalance]
+
 **[Student 4 Name]:**
 - [Contribution area 1]
 - [Contribution area 2]
@@ -160,9 +176,6 @@ See [notebooks/03-results.ipynb](notebooks/03-results.ipynb) for detailed result
 
 <!-- Choose one of the following statements and delete the others: -->
 
-**Option 1 - No AI tools used:**
-No AI tools were used in the completion of this project.
-
 **Option 2 - AI tools used:**
 The following AI tools were used in this project:
 
@@ -176,6 +189,12 @@ The following AI tools were used in this project:
   - Extent: [e.g., "Used throughout development for boilerplate code"]
   - Note: [e.g., "All AI-generated suggestions were reviewed and tested"]
 
+- **[Gemini]**
+  - Purpose: code debugging and optimization 
+  - Extent: Used primarily for guidance on how to implement, import, and structure machine learning models within the Jupyter Notebook environment
+            debug code and suggest improvemeant part
+  - Note: All AI-generated suggestions were reviewed and tested
+
 **Important:** All code generated or suggested by AI tools was thoroughly reviewed, understood, and tested by the project team. We take full responsibility for all submitted work.
 
 ## Dependencies
@@ -188,6 +207,7 @@ Key packages:
 - numpy
 - matplotlib
 - scikit-learn
+- seaborn
 - [Add other key packages]
 
 ## References
