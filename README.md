@@ -22,7 +22,7 @@
 | [Sanchez Gomez, Maria Lucia] | [Student 4 CID] | [@username4] |
 | [Castro Barandica, Juan Camilo] | [Student 4 CID] | [@username4] |
 | [Desai, Yusayrah] | [Student 4 CID] | [@username4] |
-| [Yasser, Bilal] | [Student 4 CID] | [@username4] |
+| [Yasser, Mohammad Bilal] | [06063797] | [@mbilalyasser-imperial] |
 | [Vethakarn, Chanaporn] | [06050391] | [@ChanapornV] |
 
 
